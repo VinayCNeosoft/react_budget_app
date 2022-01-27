@@ -1,0 +1,45 @@
+<Container>
+            <form>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">First Name</label>
+                    <div className="col-sm-6">
+                    <input type="text" className="form-control" id="inputFirstName"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">Last Name</label>
+                    <div className="col-sm-6">
+                    <input type="test" className="form-control" id="inputLastName"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">Username</label>
+                    <div className="col-sm-6">
+                    <input type="text" className="form-control" id="inputUsername"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">Email</label>
+                    <div className="col-sm-6">
+                    <input type="email" className="form-control" id="inputEmail"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">Password</label>
+                    <div className="col-sm-6">
+                    <input type="password" className="form-control" id="inputPassword"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <label className="col-sm-4 col-form-label">Confirm Password</label>
+                    <div className="col-sm-6">
+                    <input type="password" className="form-control" id="inputConfirmPassword"/>
+                    </div>
+                </div>
+                <div className="form-group row">
+                    <div className="col-sm-12 col-form-label">
+                        <button type="submit" className="btn btn-success">Sign in</button>
+                    </div>
+                </div>
+            </form>
+            </Container>
